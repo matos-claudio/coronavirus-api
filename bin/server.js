@@ -12,6 +12,7 @@ server.on('listenig', onListening);
 
 console.log(`Servidor rodando na porta.: ${port}`)
 
+
 var mongoose = require('mongoose')
 mongoose.connect('mongodb+srv://corona-api:coronaVirus@cluster0-zjpdm.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true })
 var db = mongoose.connection;
