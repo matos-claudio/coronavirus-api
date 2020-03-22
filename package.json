@@ -1,6 +1,6 @@
 {
   "name": "corona-virus-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "API para APP Solidario - Coronavirus",
   "main": "index.js",
   "scripts": {
