@@ -5,6 +5,6 @@ const userController = require('../../controller/user/user.controller')
 
 router.post('/newUser', userController.newUser)
 router.get('/findUsers', userController.findUsers)
-router.get('/findUsersByProfile', userController.findUsersByProfile)
+router.get('/findUsersByProfileAndDistanceInKm', userController.findUsersByProfileAndDistanceInKm)
 
 module.exports = router

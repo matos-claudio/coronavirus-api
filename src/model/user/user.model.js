@@ -50,8 +50,7 @@ var SchemaUsuario = new Schema(
             trim: true
         },
         distanciaAtendimentoUsuario: {
-            type: Number,
-            required: true
+            type: Number
         },
         possuiDoencaRespiratoria: {
             type: Boolean,
