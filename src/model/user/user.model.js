@@ -29,6 +29,11 @@ var SchemaUsuario = new Schema(
             unique: true,
             index: true
         },
+        senhaUsuario:{
+            type: String,
+            required: true,
+            trim: true
+        },
         fotoRostoUsuario: {
             type: String,
             required: true,
